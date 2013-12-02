@@ -5,7 +5,7 @@
 
 ###Introduction
 
-StCal est un logiciel de gestion de stages en entreprise dédié aux enseignants. Ce projet sera réalisé de septembre 2013 à février 2014 en vue du projet tuteuré de Mehdi Loisel, Ismail Taleb, Valentin Jeanroy, Jean Mercadier, Nicolas Devillers, Willem Verdeaux et Florian Barrois, étudiants en deuxième année à l'Institut Universitaire de Technologie de Belfort. 
+StCal est un logiciel de gestion de stages en entreprise dédié aux enseignants. Ce projet sera réalisé de septembre 2013 à février 2014 en vue du projet tuteuré de Mehdi Loisel, Ismail Taleb, Valentin Jeanroy, Jean Mercadier, Nicolas Devillers, Willem Verdeaux et Florian Barrois, étudiants en deuxième année à l'Institut Universitaire de Technologie de Belfort.
 
 
 
@@ -17,7 +17,7 @@ L'application développée devra simplifier la gestion des stages des étudiants
     - Contrainte limitant l'association d'un étudiant à un seul enseignant.
 - Gestion du planning des soutenances de stage
     - Affichage de l'horaire choisi lors de la sélection du couple enseignant/étudiant ?
-    - Affichage du couple enseignant/étudiant lors de la sélection de l'horaire choisi ?    
+    - Affichage du couple enseignant/étudiant lors de la sélection de l'horaire choisi ?
     - Drag & drop des étudiants et enseignants sur l'horaire choisi ?
 
 
@@ -31,12 +31,12 @@ Le développement s'effectuera en trois étapes, qui contiendront différentes t
 
 ####Étape 1
 
-L'application devra avant tout considérer des étudiants et des professeurs. Le produit permettra ainsi la création de couples professeur/étudiant en respectant les contraintes suivantes :  
-        - à partir d'une liste de professeurs et d'une liste d'étudiants existantes, associer un étudiant à un professeur;  
-        - chaque étudiant sera relié à un et un seul enseignant;  
-        - un enseignant pourra être relié à aucun, un ou plusieurs étudiants;  
+L'application devra avant tout considérer des étudiants et des professeurs. Le produit permettra ainsi la création de couples professeur/étudiant en respectant les contraintes suivantes :
+        - à partir d'une liste de professeurs et d'une liste d'étudiants existantes, associer un étudiant à un professeur;
+        - chaque étudiant sera relié à un et un seul enseignant;
+        - un enseignant pourra être relié à aucun, un ou plusieurs étudiants;
         - définir éventuellement l'enseignant candide comme deuxième enseignant assistant à la soutenance en utilisant la liste d'enseignants.
-                
+
 ####Étape 2
 
 L’application comportera une fonction de création d’emploi du temps vide et une seconde permettant le remplissage de celui-ci avec les soutenances de chacun des étudiants, ceci en fonction des disponibilités des enseignants tuteur et candide.
@@ -54,7 +54,7 @@ Le produit devra être capable de résoudre les cas suivants en affichant un mes
 - en cas d’utilisation d’une salle pour deux soutenances différentes prévues au même horaire ;
 - en cas de présence de deux soutenances dont les sujets sont identiques ;
 - en cas de présence de deux soutenances dont les noms des étudiants sont identiques ;
-Si toutes les salles d’entretien sont occupées à un horaire donné, cette plage horaire devra être inaccessible pour placer d’autres soutenances. 
+Si toutes les salles d’entretien sont occupées à un horaire donné, cette plage horaire devra être inaccessible pour placer d’autres soutenances.
 
 L’application possèdera également une option d’export du calendrier généré au format ICS compatible avec Google et iCal.
 
